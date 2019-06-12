@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Infant&display=swap');
+
+@keyframes desvaneciendose {
+  from {
+    background: #F0DEE3;
+  }
+  to {
+    background: #D6BEDE;
+  }
+}
+body {
+animation-name: desvaneciendose;
+animation-duration: 3s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+font-family: 'Cormorant Infant', serif;
+font-size: 14pt;
+
+.img-1{
+  width:15px;
+  margin:auto;
+  }
+}
+}
